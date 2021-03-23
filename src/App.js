@@ -1,4 +1,5 @@
 import "./App.css";
+import Alert from "./components/Alert";
 import Avatar from "./components/Avatar.js";
 import BackToTop from "./components/BackToTop";
 import Badge from "./components/Badge.js";
@@ -7,8 +8,11 @@ import Checkbox from "./components/Checkbox.js";
 import DatePicker from "./components/DatePicker";
 import DropDown from "./components/DropDown";
 import Input from "./components/Input.js";
+import Message from "./components/Message";
+import Model from "./components/Model";
 import Notification from "./components/Notification";
 import Pagination from "./components/Pagination";
+import PopupConfirm from "./components/PopupConfirm";
 import Progress from "./components/Progress";
 import Radio from "./components/Radio.js";
 import Rating from "./components/Rating";
@@ -47,6 +51,10 @@ function App() {
       <Tooltip />
       <Notification />
       <Progress />
+      <Message />
+      <Alert />
+      <PopupConfirm />
+      <Model />
     </div>
   );
 }
