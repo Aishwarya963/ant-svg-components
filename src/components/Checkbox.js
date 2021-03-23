@@ -1,6 +1,6 @@
 import React from "react";
 
-function Checkbox(props) {
+const Checkbox = (props) => {
   return (
     <svg
       id="_3.数据录入_1.Checkbox多选框_亮色_Icon-悬停"
@@ -23,7 +23,7 @@ function Checkbox(props) {
       </g>
     </svg>
   );
-}
+};
 
 export default Checkbox;
 //on

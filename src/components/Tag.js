@@ -1,6 +1,6 @@
 import React from "react";
 
-function Tag() {
+const Tag = () => {
   return (
     <svg
       id="数据展示_Tag标签_浅色_Default"
@@ -32,6 +32,6 @@ function Tag() {
       </text>
     </svg>
   );
-}
+};
 
 export default Tag;

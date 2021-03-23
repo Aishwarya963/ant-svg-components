@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Notification() {
+const Notification = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -80,4 +80,5 @@ export default function Notification() {
       </g>
     </svg>
   );
-}
+};
+export default Notification;

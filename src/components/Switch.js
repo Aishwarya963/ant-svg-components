@@ -1,6 +1,6 @@
 import React from "react";
 
-function Switch() {
+const Switch = () => {
   return (
     <svg
       id="_3.数据录入_3.Switch开关_亮色_默认-开"
@@ -27,7 +27,7 @@ function Switch() {
       />
     </svg>
   );
-}
+};
 
 export default Switch;
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Radio() {
+const Radio = () => {
   return (
     <svg
       id="_3.数据录入_2.Radio单选框_亮色_Icon-悬停"
@@ -24,7 +24,7 @@ function Radio() {
       </g>
     </svg>
   );
-}
+};
 
 export default Radio;
 

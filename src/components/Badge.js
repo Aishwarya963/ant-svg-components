@@ -1,6 +1,6 @@
 import React from "react";
 
-function Badge() {
+const Badge = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +45,6 @@ function Badge() {
       </g>
     </svg>
   );
-}
+};
 
 export default Badge;
